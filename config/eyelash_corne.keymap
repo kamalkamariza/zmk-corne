@@ -117,6 +117,26 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <37 38>;
         };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <2 3>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <9 10>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <15 16>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <24 25>;
+        };
     };
 
     keymap {
