@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
-  - {t: A, h: '&mt LEFT_WIN'}
-  - {t: S, h: '&mt LEFT_ALT'}
-  - {t: D, h: '&mt LEFT_SHIFT'}
-  - {t: F, h: '&mt LCTRL'}
+  - {t: A, h: LEFT WIN}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - {t: J, h: '&mt RCTRL'}
-  - {t: K, h: '&mt RIGHT_SHIFT'}
-  - {t: L, h: '&mt RIGHT_ALT'}
-  - {t: ;, h: '&mt RIGHT_WIN', s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: RIGHT WIN, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
