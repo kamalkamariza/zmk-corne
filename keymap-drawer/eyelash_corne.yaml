@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
   - E
@@ -13,42 +13,42 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
-  - A
-  - {t: S, h: '&mt LCTRL'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-caps$$
+  - {t: A, h: '&mt LEFT_WIN'}
+  - {t: S, h: '&mt LEFT_ALT'}
   - {t: D, h: '&mt LEFT_SHIFT'}
-  - {t: F, h: '&mt LEFT_ALT'}
+  - {t: F, h: '&mt LCTRL'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - {t: J, h: '&mt RIGHT_ALT'}
+  - {t: J, h: '&mt RCTRL'}
   - {t: K, h: '&mt RIGHT_SHIFT'}
-  - {t: L, h: '&mt RCTRL'}
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: L, h: '&mt RIGHT_ALT'}
+  - {t: ;, h: '&mt RIGHT_GUI', s: ':'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
-  - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&tab_esc'
+  - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - {t: '''', s: '"'}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -196,3 +196,16 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [3, 4]
+  k: (
+- p: [16, 17]
+  k: {t: '[', s: '{'}
+- p: [31, 32]
+  k: '{'
+- p: [8, 9]
+  k: )
+- p: [23, 24]
+  k: {t: ']', s: '}'}
+- p: [37, 38]
+  k: '}'
