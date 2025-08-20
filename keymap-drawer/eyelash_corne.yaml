@@ -27,7 +27,7 @@ layers:
   - {t: J, h: '&mt RCTRL'}
   - {t: K, h: '&mt RIGHT_SHIFT'}
   - {t: L, h: '&mt RIGHT_ALT'}
-  - {t: ;, h: '&mt RIGHT_GUI', s: ':'}
+  - {t: ;, h: '&mt RIGHT_WIN', s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
