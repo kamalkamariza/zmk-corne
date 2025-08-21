@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-caps$$
+  - '&td0'
   - {t: A, h: LEFT WIN}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RIGHT WIN, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -125,7 +125,7 @@ layers:
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - '|'
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
@@ -139,16 +139,16 @@ layers:
   - +
   - '{'
   - '}'
-  - '|'
+  - {t: \, s: '|'}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   Fn:
-  - '&studio_unlock'
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -163,10 +163,10 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -177,15 +177,15 @@ layers:
   - PRINTSCREEN
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&studio_unlock'
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - SCROLLLOCK
@@ -196,24 +196,86 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  GAMING_LAYER:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - E
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWERTY, h: toggle}
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - NUMBER
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [3, 4]
   k: (
+  l: [QWERTY]
 - p: [16, 17]
   k: {t: '[', s: '{'}
+  l: [QWERTY]
 - p: [31, 32]
   k: '{'
+  l: [QWERTY]
 - p: [8, 9]
   k: )
+  l: [QWERTY]
 - p: [23, 24]
   k: {t: ']', s: '}'}
+  l: [QWERTY]
 - p: [37, 38]
   k: '}'
+  l: [QWERTY]
 - p: [2, 3]
   k: '!'
+  l: [QWERTY]
 - p: [9, 10]
   k: {t: '=', s: +}
+  l: [QWERTY]
 - p: [15, 16]
   k: '*'
+  l: [QWERTY]
 - p: [24, 25]
   k: _
+  l: [QWERTY]
+- p: [28, 41]
+  k: {t: GAMING_LAYER, h: toggle}
+  l: [QWERTY]
