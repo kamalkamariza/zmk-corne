@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - {t: A, h: LEFT WIN}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&tab_esc'
-  - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - {t: '$$mdi:backspace$$', h: Fn}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fn}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '''', s: '"'}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
