@@ -45,8 +45,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&tab_esc'
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - {t: '''', s: '"'}
   NUMBER:
@@ -278,4 +278,7 @@ combos:
   l: [QWERTY]
 - p: [28, 41]
   k: {t: GAMING_LAYER, h: toggle}
+  l: [QWERTY]
+- p: [38, 39]
+  k: {t: '-', s: _}
   l: [QWERTY]
