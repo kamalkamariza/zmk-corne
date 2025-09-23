@@ -241,7 +241,7 @@ layers:
   - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - NUMBER
+  - {t: '$$mdi:keyboard-esc$$', h: NUMBER}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
