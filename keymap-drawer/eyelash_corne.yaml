@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   GAMING_LAYER:
-  - $$mdi:keyboard-esc$$
+  - '&esc_tab'
   - Q
   - W
   - E
