@@ -431,3 +431,6 @@ combos:
   l: [QWERTY]
 - p: [28, 27]
   k: {t: dota, h: toggle}
+combos:
+- p: [1, 15, 29]
+  k: '&soft_off'
